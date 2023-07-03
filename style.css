@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Doppio+One&family=Inter:wght@100;200;300;400;500;600;800&family=Lily+Script+One&family=Mukta:wght@300;400;500;600;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
+
 }
 
-body{
+body {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
 }
@@ -82,7 +83,7 @@ main {
   height: 265px;
   color: #0F468C;
   font-size: 20px;
- 
+
 }
 
 .sectionOne img {
@@ -139,13 +140,18 @@ footer {
 
 .social {
   display: flex;
-  align-items: center;
+  width: 100px;
 
 }
 
 .social img {
-  width: 90px;
-  height: 90px;
+  width: 80px;
+  height: 80px;
+}
+
+.social img:hover {
+  backdrop-filter: brightness(150%);
+  border-radius: 50%;
 }
 
 .content {
@@ -158,7 +164,7 @@ footer {
 .content p {
   color: #E4EEF1;
   font-size: 20px;
-  }
+}
 
 .pinguim img {
   width: 62px;
