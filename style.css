@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Doppio+One&family=Inter:wght@100;200;300;400;500;600;800&family=Lily+Script+One&family=Mukta:wght@300;400;500;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body{
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+header {
+  background-color: #4B93BF;
+  display: flex;
+  height: 118px;
+  justify-content: space-between;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+header h1 {
+  color: #E4EEF1;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+header img {
+
+  width: 136px;
+  height: 107px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 15vh;
+  width: 46vw;
+}
+
+li {
+
+  list-style: none;
+}
+
+header a {
+  color: #E4EEF1;
+  font-size: 28px;
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+
+main {
+  background: #E4EEF1;
+}
+
+.sectionOne {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 377px;
+
+}
+
+.sectionOne p {
+  display: flex;
+  width: 517px;
+  height: 265px;
+  color: #0F468C;
+  font-size: 20px;
+ 
+}
+
+.sectionOne img {
+  width: 416px;
+  height: 464px;
+  object-fit: cover;
+
+}
+
+.sectionTwo {
+  background-color: #4B93BF;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 262px;
+}
+
+.sectionTwo img {
+  display: flex;
+  align-items: center;
+  width: 343px;
+  height: 266px;
+}
+
+.sectionTwo p {
+  display: flex;
+  align-items: center;
+  color: #E4EEF1;
+  font-size: 32px;
+  width: 585px;
+  height: 164px;
+}
+
+.sectionTree {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sectionTree img {
+  width: 290px;
+  height: 350px;
+
+}
+
+footer {
+  background-color: #4B93BF;
+  display: flex;
+  height: 118px;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.social {
+  display: flex;
+  align-items: center;
+
+}
+
+.social img {
+  width: 90px;
+  height: 90px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content p {
+  color: #E4EEF1;
+  font-size: 20px;
+  }
+
+.pinguim img {
+  width: 62px;
+  height: 120px;
+}
